@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch",
+    "selesai": "npx tailwindcss -o ./dist/final.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
